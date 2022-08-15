@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin: 5px;
+  padding: 0px 5px 0px 5px;
+}
+
+a:first-child {
+  margin-left: 0px;
+}
+a:hover {
+  color: white;
+  background-color: tomato;
+}
+
+a:active {
+  color: white;
+  color: dodgerblue;
+}

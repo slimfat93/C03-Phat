@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.div-page {
+  background-image: url("/kmin-logo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 150px;
+}
+.div-left {
+  width: 60%;
+  height: 1000px;
+  text-align: center;
+}
+
+#div-left-title1 {
+  color: tomato;
+}
+
+#div-left-title2 {
+  color: dodgerblue;
+}
